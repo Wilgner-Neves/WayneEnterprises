@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funcionarios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{ 
+            font-family: "Rubik", sans-serif;
+            background-color: black;
+            
+            }
+
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100px;
+            background-color: rgb(48, 47, 47);
+        }
+        .title{
+            margin-left: 50px;
+            color: antiquewhite;
+        }
+        .logo img{
+            width: 70px;
+            height: 70px;
+            margin: 60px;
+            justify-content: center;
+        }
+        .navegation{
+            display: flex;
+            
+        }
+        .navegation li{
+            margin: 50px;
+            justify-content: flex-end;
+            list-style: none;
+        }
+
+        .navegation li a{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: large;
+        }
+        .navegation li a:hover{
+            background-color: gray;
+        }
+        .img{
+            display: flex;
+            justify-content: center;
+            opacity: 0.4;
+            background-image: url(img.jpg);
+        }
+        .intro-section{
+            background-color: black;
+            
+        }
+        .intro-informations{  
+            color: antiquewhite;
+            margin-top: 5%;
+            margin: 5%;
+            text-align: center;
+            padding: 50px;
+        }
+        .intro-informations img{
+            width: 500px;
+            height: 300px;
+        }
+        .work-info{
+            color: antiquewhite;
+        }
+        .h1-seg{
+            color: antiquewhite;
+            text-align: center;    
+            
+        }
+        .h1-recursos{
+            color: antiquewhite;
+            text-align: center; 
+            margin-top: 20px;
+        }
+        .h1-atividade{
+            color: antiquewhite;
+            text-align: center; 
+            margin-top: 20px;
+            
+        }
+        .seg{
+            color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            
+        }
+        .card-seg{
+            background-color: rgb(48, 47, 47);
+            margin: 17px;
+            align-items: center;
+            text-align: center;
+            flex: 1 1 200px;
+            border-radius: 15px;
+            padding: 12px;
+            
+        }
+        .work-tittle{
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        .work-thumb img{
+            height: 190px;
+            width: 350px;
+        }
+
+        footer {
+            color: grey;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            margin-top: 50px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <div class="title"><h2>BEM VINDO(a)</h2></div>
+        
+        <nav>
+            <ul class="navegation">
+                <li><a href="#seguranca">Segurança</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#atividade">Atividade</a></li>
+                <li><a href="index.html">SAIR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-informations">
+                <img src="img.jpg" alt="">
+                <h2>Fundadas em 1870, as Indústrias Wayne são uma das maiores e mais diversificadas conglomerados do mundo. Com sede em Gotham City, a empresa é um símbolo de inovação, responsabilidade social e progresso tecnológico. Desde a sua criação, as Indústrias Wayne têm desempenhado um papel crucial no desenvolvimento econômico e social de Gotham e além.
+                </h2>
+            </div>   
+        </div>     
+    </section>    
+    
+    <h1 class="h1-seg">Segurança</h1>     
+
+    <section class="seg" id="seguranca">    
+        <div class="card-seg" id="security-card">  
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="seg2.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Políticas de Segurança Corporativa
+                        </h3>
+                        <p class="work-info">
+                            Visão Geral das Políticas de Segurança: Descrição das políticas de segurança implementadas pela empresa.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-seg">    
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="seg.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Tecnologias e Sistemas de Segurança
+                        </h3>
+                        <p class="work-info">
+                            Controle de Acesso: Mecanismos para controlar e monitorar o acesso às instalações da empresa.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-seg">
+            
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="seg1.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Segurança Cibernética e Proteção de Dados
+                        </h3>
+                        <p class="work-info">
+                            Proteção de Infraestrutura Digital: Medidas para proteger sistemas e redes de ataques cibernéticos.                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <h1 class="h1-recursos">Recursos</h1>  
+
+    <section class="seg" id="recursos">    
+        <div class="card-seg" id="security-card">  
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="infra.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Infraestrutura e Instalações
+                        </h3>
+                        <p class="work-info">
+                            Instalações de Produção de Alta Tecnologia: Fábricas equipadas com maquinário moderno e tecnologias avançadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-seg">    
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="ino.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Inovação e Pesquisa
+                        </h3>
+                        <p class="work-info">
+                            Centros de Inovação: Espaços dedicados à criação e desenvolvimento de novas ideias e produtos.                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-seg">
+            
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="fin.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Recursos Financeiros</h3>
+                        <p class="work-info">
+                            Parcerias e Colaborações Financeiras: Colaborações com outras empresas e instituições para financiamento de projetos conjuntos.
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="h1-atividade">Atividade</h1>  
+
+    <section class="seg" id="atividade">    
+        <div class="card-seg" id="security-card">  
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="atv1.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Desenvolvimento de Novos Produtos</h3>
+                        <p class="work-info">
+                            Soluções de Mobilidade Urbana: Desenvolvimento de veículos elétricos e tecnologias de transporte urbano. 
+                        </p>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-seg">    
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="atv2.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Pesquisa e Desenvolvimento (P&D)</h3>
+                        <p class="work-info">
+                            Projetos de Pesquisa Avançada: Investimento em pesquisas de longo prazo em áreas como inteligência artificial e nanotecnologia.   
+                        </p>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-seg">
+            
+            <div class="seg-wrapp">
+                <div class="work-item">
+                    <div class="work-thumb"> 
+                        <img src="atv3.jpg">
+                    </div>
+                    <div class="work-info-wrapper">
+                        <h3 class="work-info">
+                            Resposta a Desafios Globais                        
+                        </h3>
+                        <p class="work-info">
+                            Adaptação à Pandemia: Medidas tomadas para garantir a segurança dos funcionários e a continuidade dos negócios durante a pandemia de COVID-19. 
+                        </p>                
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        Wayne Enterprises® - 2024
+    </footer>
+
+    
+    
+        
+    
+    
+</body>
+</html>
